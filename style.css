@@ -1,0 +1,72 @@
+body {
+	font-family: montserrat;
+	background: #2D3743;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.header {
+	background: #DD3333;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+}
+
+.container {
+	text-align: center;
+}
+.container h2 {
+	font-size: 3.5rem;
+	font-weight: 500;
+}
+
+.container > p {
+	margin-top: 50px;
+}
+
+.seconds-color {
+	color: green;
+}
+
+input[type='text']  {
+	width: 40%;
+	padding: 15px 10px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	margin-top: -10px;
+}
+
+.record {
+	line-height: 0.9;
+}
+
+.container .instruction {
+	width: 350px;
+	margin: 20px auto;
+	background: #dd3333;
+	padding: 6px 15px;
+	border-radius: 5px;
+}
+
+
+.container .instruction > p {
+	font-size: 0.7rem;
+	text-align: justify;
+}
+
+
+@media  only screen and (max-width: 700px){
+	input[type='text']  {
+	width: 70%;
+	}
+
+	.container .instruction {
+	width: 80%;
+	}
+}
